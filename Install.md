@@ -32,6 +32,22 @@ wget https://download.prestashop.com/download/releases/prestashop_1.7.6.7.zip
 ```
 
 mkdir prestashop
+```
+apt-get install php-zip php-simplexml
+```
+optionally
+```
+And THEN you have to add it manually to /etc/php/7.0/apache2/php.ini (apache2 or whatever web server you're using).
+
+ 
+
+Just add those two lines at the end of the file :
+
+extension=simplexml.so
+extension=zip.so
+```
+systemctl restart apache2
+
 source: 
 
 https://www.youtube.com/watch?v=eQoJufGAZHc&list=PLvW0hHyu2_mrkDd8HxO15jnImoj1ygD5q&index=1&t=79s
