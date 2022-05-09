@@ -48,6 +48,8 @@ extension=zip.so
 ```
 systemctl restart apache2
 
+a2enmod rewrite
+
 source: 
 
 https://www.youtube.com/watch?v=eQoJufGAZHc&list=PLvW0hHyu2_mrkDd8HxO15jnImoj1ygD5q&index=1&t=79s
