@@ -21,6 +21,7 @@ sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-curl php7.4-gd php
 ```
   GRANT ALL PRIVILEGES ON prestashop.* TO 'devHus'@'localhost';
 ```
+/* database name prestashop*/
 ```
   FLUSH PRIVILEGES;
 ```
